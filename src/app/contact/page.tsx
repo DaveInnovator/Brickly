@@ -10,7 +10,7 @@ export default function ContactPage() {
       <Navbar />
       <main className="max-w-4xl mx-auto px-6 py-16">
         <motion.h1
-          className="text-4xl font-bold mb-6 text-blue-600"
+          className="text-4xl font-bold mb-6 text-[#4C21B1]"
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -54,7 +54,7 @@ export default function ContactPage() {
           ></motion.textarea>
           <motion.button
             type="submit"
-            className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 w-full"
+            className="bg-[#4C21B1] text-white px-6 py-3 rounded-lg hover:bg-blue-700 w-full"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
