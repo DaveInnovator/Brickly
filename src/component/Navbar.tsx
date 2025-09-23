@@ -52,7 +52,7 @@ export default function Navbar() {
           </Link>
           <Link
             href="/contact"
-            className="px-4 py-2 bg-primary text-white rounded-lg hover:opacity-90 transition"
+            className="px-4 py-2 bg-[#4C21B1] text-white rounded-lg hover:opacity-90 transition"
           >
             Contact Us
           </Link>
@@ -89,7 +89,7 @@ export default function Navbar() {
             </Link>
             <Link
               href="/contact"
-              className="px-4 py-2 bg-primary text-white rounded-lg hover:opacity-90 transition text-center"
+              className="px-4 py-2 bg-[#4C21B1] text-white rounded-lg hover:opacity-90 transition text-center"
               onClick={() => setIsOpen(false)}
             >
               Contact Us

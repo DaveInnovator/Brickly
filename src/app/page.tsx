@@ -6,7 +6,8 @@ import WhyChoose from "../component/WhyChoose";
 import Stats from "../component/Stats";
 import CTA from "../component/CTA";
 import { properties } from "../data/properties";
-
+import Purpose from "../component/Purpose"
+import Link from "next/link";
 export default function HomePage() {
   return (
     <>
@@ -22,8 +23,17 @@ export default function HomePage() {
           {properties.map((p) => (
             <PropertyCard key={p.id} prop={p} />
           ))}
+          
         </section>
-
+<div className="text-center mt-8">
+  <Link
+    href="/properties"
+    className="inline-block bg-[#4C21B1] text-white px-6 py-3 rounded-lg hover:opacity-90 transition"
+  >
+    View All Properties
+  </Link>
+</div>
+<Purpose/>
         <WhyChoose />
         <Stats />
         <CTA />
